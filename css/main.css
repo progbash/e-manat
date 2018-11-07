@@ -1,0 +1,255 @@
+body{
+    margin:0 auto;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.img{
+    width:100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.flag-pos{
+    width: 250px;
+    top:17px;
+    right:10px;
+}
+.flag-pos img{
+    padding-left: 15px;
+}
+
+.azelang, .ruslang, .englang{
+    cursor: pointer;
+}
+
+.logo-img{
+    width: 300px;
+    left: 33%;
+    top: 35%;
+}
+
+.info-logo{
+    width: 100px;
+    left: 60%;
+    top: 35%;
+}
+
+.date-div{
+    top:10px;
+    left: 70px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.top-img-container{
+    margin-top: 60px;
+    margin-left: 1%;
+    display: inline-flex;
+    border-radius: 15px;
+}
+
+.btn-img{
+    width: 100px;
+    height: 95px;
+    margin-left: 20%;
+    margin-top:10%;
+}
+
+.top-img-container{
+    cursor:pointer;
+}
+.providerPicDiv, .providerInput{
+    display: inline-block;
+}
+.container{
+    margin-top:100px;
+}
+.providerPicDiv{
+    height: 100px;
+    background-color:#f6a646;
+    width: 200px;
+    border-radius: 15px;
+}
+.providerInput{
+    outline: none;
+    font-size:2em;
+    position: absolute;
+    border:7px solid #3a9bfc;
+    border-radius: 15px;
+    width:67.2%;
+    height: 90px;
+    
+}
+.providerPic{
+    margin-left: 25%;
+}
+.providerDeleteButton{
+    outline: none;
+    border-radius: 15px;
+    background-color:#f6a646;
+    color: white;
+    font-size:1.2em;
+    width:200px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+.btns{
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #3a9bfc;
+    font-size: 1.4em;
+    color: white;
+    cursor: pointer;
+    outline:none;
+}
+.buttonsContainer{
+    margin-left:35%;
+    margin-top:2%;
+}
+.zeroButton{
+    margin-bottom:10px;
+    width: 320px;
+    height: 100px;
+    border-radius: 30px 30px 60px 60px;
+    background-color: #3a9bfc;
+    font-size: 1.4em;
+    color: white;
+    cursor: pointer;
+    outline:none;
+}
+
+.continueButton{
+    position: absolute;
+    background-color: #f6a646;
+    right: 0;
+    bottom:0;
+    width: 320px;
+    height: 100px; 
+    font-size: 1.4em;
+    color: white;
+    cursor: pointer;
+    outline:none;
+}
+
+.bodyContainer{
+    width: 60%;
+    margin-left: 25%;
+    margin-top:5%;
+}
+
+.bodyProvider{
+    text-align: center;
+    cursor: pointer;
+    margin-left:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+}
+
+.bodyText{
+    color:white;
+    font-size:1.2em; 
+}
+.bodyContainer{
+    position: absolute;
+    
+}
+.bodyContainer i {
+    color:white;
+    line-height: 80px;
+    font-size:4em;
+}
+
+.leftAd, .rightAd{
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    top:380px;
+}
+
+.leftAd{
+    left:0;
+}
+.rightAd{
+    right:0;
+}
+
+.leftBtn{
+    left:230px;
+    display: none;
+}
+.rightBtn{
+    right:230px;
+}
+
+.leftBtn, .rightBtn{
+    cursor: pointer;
+    height: 70px;
+    width:70px;
+    position: absolute;
+    top:200px;
+    border-radius: 50%;
+    outline: none;
+    background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); 
+}
+.btnIcon{
+    color: white;
+    padding: 10px 23px;
+    font-size: 3em;
+}
+.secondPage{
+    width:100%;
+    display: none;
+    position: absolute;
+    left:130%;
+    top:0;
+}
+
+@keyframes spin-horizontal {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
+.azelang, .ruslang, .englang{ 
+    animation: spin-horizontal 3s infinite linear;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.home{
+    line-height: 120px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color:white;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    height: 120px;
+    width: 320px;
+    border-radius: 20px;
+    background-color:#f6a646;
+}
+
+
+.home:hover{
+    background-color:#3a9bfc;
+    transition: .5s ease;
+}

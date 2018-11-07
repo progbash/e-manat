@@ -1,2 +1,1 @@
-# e-manat
-e-manat terminal clone
+# The smartest team of Code Academy - YE team!
